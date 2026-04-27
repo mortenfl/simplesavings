@@ -1,0 +1,248 @@
+/* ── Layout ─────────────────────────────────────────── */
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px 60px;
+}
+
+.app-header {
+  text-align: center;
+  padding: 48px 0 36px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 36px;
+}
+
+.app-header h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: -0.5px;
+  margin-bottom: 8px;
+}
+
+.app-header p {
+  color: var(--text-muted);
+  font-size: 1rem;
+}
+
+.calculator {
+  display: grid;
+  grid-template-columns: 360px 1fr;
+  gap: 28px;
+  align-items: start;
+}
+
+@media (max-width: 860px) {
+  .calculator {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ── Panels ─────────────────────────────────────────── */
+.calculator__inputs,
+.calculator__results {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 28px;
+  box-shadow: var(--shadow);
+}
+
+.section-title {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  margin-bottom: 24px;
+}
+
+/* ── Fields ─────────────────────────────────────────── */
+.field {
+  margin-bottom: 24px;
+}
+
+.field:last-child {
+  margin-bottom: 0;
+}
+
+.field__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 8px;
+}
+
+.field__label {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text);
+  margin-bottom: 8px;
+}
+
+.field__header .field__label {
+  margin-bottom: 0;
+}
+
+.field__value {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--blue);
+}
+
+.field__range {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-top: 4px;
+}
+
+/* ── Text input ─────────────────────────────────────── */
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  border: 1.5px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--bg);
+  transition: border-color 0.15s;
+}
+
+.input-wrapper:focus-within {
+  border-color: var(--blue);
+  background: #fff;
+}
+
+.input-prefix,
+.input-suffix {
+  padding: 10px 12px;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  background: transparent;
+  user-select: none;
+}
+
+.text-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text);
+  padding: 10px 4px;
+  text-align: right;
+  min-width: 0;
+}
+
+/* ── Slider ─────────────────────────────────────────── */
+.slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 6px;
+  border-radius: 3px;
+  background: linear-gradient(
+    to right,
+    var(--blue) 0%,
+    var(--blue) calc(var(--pct, 50%) * 1%),
+    var(--border) calc(var(--pct, 50%) * 1%),
+    var(--border) 100%
+  );
+  outline: none;
+  cursor: pointer;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--blue);
+  border: 3px solid #fff;
+  box-shadow: 0 0 0 1px var(--blue), 0 2px 6px rgba(0,0,0,0.15);
+  cursor: pointer;
+  transition: transform 0.1s;
+}
+
+.slider::-webkit-slider-thumb:hover {
+  transform: scale(1.15);
+}
+
+.slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--blue);
+  border: 3px solid #fff;
+  box-shadow: 0 0 0 1px var(--blue), 0 2px 6px rgba(0,0,0,0.15);
+  cursor: pointer;
+}
+
+/* ── Summary cards ──────────────────────────────────── */
+.summary-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.summary-card {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.summary-card--highlight {
+  background: var(--blue-light);
+  border-color: rgba(37, 99, 235, 0.25);
+}
+
+.summary-card__label {
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+}
+
+.summary-card--highlight .summary-card__label {
+  color: var(--blue);
+}
+
+.summary-card__value {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.summary-card--highlight .summary-card__value {
+  color: var(--blue);
+  font-size: 1.2rem;
+}
+
+/* ── Chart ──────────────────────────────────────────── */
+.chart-wrapper {
+  position: relative;
+  height: 320px;
+}
+
+@media (max-width: 600px) {
+  .summary-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .app-header h1 {
+    font-size: 1.6rem;
+  }
+
+  .chart-wrapper {
+    height: 240px;
+  }
+}
