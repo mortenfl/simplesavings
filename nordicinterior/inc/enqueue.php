@@ -306,7 +306,7 @@ add_filter( 'script_loader_tag', 'ni_script_tag', 10, 2 );
  */
 function ni_admin_assets( $hook ) {
 	wp_enqueue_style( 'ni-admin', NI_URI . '/assets/css/admin.css', array(), NI_VERSION );
-	$screens = array( 'edit-tags.php', 'term.php', 'post.php', 'post-new.php', 'edit.php', 'nav-menus.php', 'widgets.php' );
+	$screens = array( 'edit-tags.php', 'term.php', 'post.php', 'post-new.php', 'edit.php', 'nav-menus.php' );
 	if ( in_array( $hook, $screens, true ) || false !== strpos( $hook, 'nordicinterior' ) ) {
 		wp_enqueue_media();
 		wp_enqueue_script( 'ni-admin', NI_URI . '/assets/js/admin.js', array(), NI_VERSION, true );
