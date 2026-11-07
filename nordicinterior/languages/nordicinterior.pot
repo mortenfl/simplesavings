@@ -1,0 +1,2522 @@
+# Copyright (C) 2026 Nordic Interior
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Nordic Interior 1.0.0\n"
+"Report-Msgid-Bugs-To: https://www.nordicinterior.se/\n"
+"POT-Creation-Date: 2026-11-07 22:28+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Domain: nordicinterior\n"
+
+#. Theme Name of the theme
+msgid "Nordic Interior"
+msgstr ""
+
+#: 404.php:15
+msgid "Sidan hittades inte"
+msgstr ""
+
+#: 404.php:16
+msgid "Här var det tomt"
+msgstr ""
+
+#: 404.php:17
+msgid "Sidan kan ha flyttats eller tagits bort. Sök efter det du letar efter, eller börja med ett rum."
+msgstr ""
+
+#: archive-ni_campaign.php:13 inc/campaigns.php:21 inc/campaigns.php:30 inc/sections.php:22 inc/seo.php:150
+msgid "Kampanjer"
+msgstr ""
+
+#: archive-ni_campaign.php:14
+msgid "Aktuella kampanjer och rabattkoder från våra butiker. Listan uppdateras automatiskt – avslutade kampanjer försvinner."
+msgstr ""
+
+#: archive-ni_campaign.php:31
+msgid "Inga aktiva kampanjer just nu"
+msgstr ""
+
+#: archive-ni_campaign.php:32
+msgid "Titta in igen snart – eller se allt som är på rea."
+msgstr ""
+
+#: archive-ni_campaign.php:33
+msgid "Till rean"
+msgstr ""
+
+#: archive.php:13 inc/admin/demo.php:811 inc/defaults.php:193 inc/sections.php:25 inc/seo.php:119 inc/seo.php:155 inc/setup.php:198 index.php:13
+msgid "Inspiration"
+msgstr ""
+
+#: archive.php:51 index.php:51
+msgid "Inget här ännu"
+msgstr ""
+
+#: archive.php:52 index.php:52
+msgid "Vi skriver nya guider och inredningstips hela tiden. Titta in snart igen."
+msgstr ""
+
+#: assets/js/look-block.js:18 inc/affiliate.php:23 inc/sections.php:24 inc/sections.php:404 inc/shop-the-look.php:31
+msgid "Shoppa looken"
+msgstr ""
+
+#: assets/js/look-block.js:56
+msgid "Looken"
+msgstr ""
+
+#: assets/js/look-block.js:58
+msgid "Bildtext (valfri)"
+msgstr ""
+
+#: assets/js/look-block.js:66
+msgid "Punkt"
+msgstr ""
+
+#: assets/js/look-block.js:68
+msgid "Produkt-ID"
+msgstr ""
+
+#: assets/js/look-block.js:99
+msgid "Ta bort punkt"
+msgstr ""
+
+#: assets/js/look-block.js:113
+msgid "Byt bild"
+msgstr ""
+
+#: assets/js/look-block.js:113
+msgid "Välj rumsbild"
+msgstr ""
+
+#: assets/js/look-block.js:121
+msgid "Klicka i bilden för att lägga till en produktpunkt. Ange produkt-ID i sidopanelen."
+msgstr ""
+
+#. translators: %s: number of comments.
+#: comments.php:19
+#, php-format
+msgid "%s kommentar"
+msgid_plural "%s kommentarer"
+msgstr[0] ""
+msgstr[1] ""
+
+#: footer.php:32 inc/admin/demo.php:861 inc/admin/demo.php:863 inc/setup.php:58
+msgid "Sidfotsmeny"
+msgstr ""
+
+#: footer.php:44
+msgid "Snabbnavigering"
+msgstr ""
+
+#: footer.php:46 inc/seo.php:32
+msgid "Hem"
+msgstr ""
+
+#: footer.php:47 header.php:120 inc/admin/dashboard.php:352 inc/enqueue.php:193 inc/filters.php:28 inc/menus.php:130 inc/menus.php:152 inc/seo.php:41
+msgid "Rum"
+msgstr ""
+
+#: footer.php:48 inc/defaults.php:194 inc/enqueue.php:195 inc/sections.php:26 inc/seo.php:61 inc/widgets/class-ni-widget-links.php:39
+msgid "Varumärken"
+msgstr ""
+
+#: footer.php:49 inc/admin/demo.php:814 inc/customizer.php:605 inc/menus.php:131 inc/template-tags.php:424 template-parts/listing-toolbar.php:82
+msgid "Rea"
+msgstr ""
+
+#: header.php:19
+msgid "Hoppa till innehållet"
+msgstr ""
+
+#: header.php:29 inc/sections.php:239
+msgid "Kampanjer just nu"
+msgstr ""
+
+#: header.php:39
+msgid "Öppna menyn"
+msgstr ""
+
+#: header.php:46 inc/admin/getting-started.php:112 inc/menus.php:186 inc/setup.php:56
+msgid "Huvudmeny"
+msgstr ""
+
+#: header.php:72
+msgid "Meny"
+msgstr ""
+
+#: header.php:78
+msgid "Stäng menyn"
+msgstr ""
+
+#: header.php:101 inc/setup.php:57
+msgid "Mobilmeny"
+msgstr ""
+
+#: inc/admin/dashboard.php:16 inc/admin/dashboard.php:17 inc/post-meta.php:46
+msgid "Nordic Interior"
+msgstr ""
+
+#: inc/admin/dashboard.php:24 inc/admin/dashboard.php:24
+msgid "Översikt"
+msgstr ""
+
+#: inc/admin/dashboard.php:25 inc/admin/dashboard.php:25 inc/admin/getting-started.php:198
+msgid "Kom igång"
+msgstr ""
+
+#: inc/admin/dashboard.php:26 inc/admin/dashboard.php:26 inc/admin/dashboard.php:330
+msgid "Landningssidor"
+msgstr ""
+
+#: inc/admin/dashboard.php:27 inc/admin/dashboard.php:27 inc/admin/dashboard.php:225
+msgid "Länkkontroll"
+msgstr ""
+
+#: inc/admin/dashboard.php:28 inc/admin/dashboard.php:28 inc/admin/dashboard.php:288
+msgid "Sökningar"
+msgstr ""
+
+#: inc/admin/dashboard.php:45
+msgid "Inga data ännu."
+msgstr ""
+
+#: inc/admin/dashboard.php:99
+msgid "Nordic Interior – översikt"
+msgstr ""
+
+#: inc/admin/dashboard.php:102 inc/campaigns.php:317
+msgid "Period"
+msgstr ""
+
+#. translators: %d: number of days.
+#: inc/admin/dashboard.php:108
+#, php-format
+msgid "%d dag"
+msgid_plural "%d dagar"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/dashboard.php:113
+msgid "Visa"
+msgstr ""
+
+#: inc/admin/dashboard.php:117
+msgid "Klick till butiker"
+msgstr ""
+
+#: inc/admin/dashboard.php:118 inc/admin/dashboard.php:174
+msgid "Trasiga länkar"
+msgstr ""
+
+#: inc/admin/dashboard.php:119
+msgid "Aktiva kampanjer"
+msgstr ""
+
+#: inc/admin/dashboard.php:120
+msgid "Prissänkningar"
+msgstr ""
+
+#: inc/admin/dashboard.php:125
+msgid "Klick per dag"
+msgstr ""
+
+#: inc/admin/dashboard.php:126
+msgid "Stapeldiagram över klick per dag"
+msgstr ""
+
+#: inc/admin/dashboard.php:139
+msgid "Klick per placering"
+msgstr ""
+
+#: inc/admin/dashboard.php:140
+msgid "Klick per produkt"
+msgstr ""
+
+#: inc/admin/dashboard.php:141
+msgid "Klick per butik"
+msgstr ""
+
+#: inc/admin/dashboard.php:142
+msgid "Klick per varumärke"
+msgstr ""
+
+#: inc/admin/dashboard.php:143
+msgid "Klick per rum"
+msgstr ""
+
+#: inc/admin/dashboard.php:144
+msgid "Klick per stil"
+msgstr ""
+
+#: inc/admin/dashboard.php:150 inc/admin/dashboard.php:294 inc/customizer.php:438
+msgid "Populära sökningar"
+msgstr ""
+
+#: inc/admin/dashboard.php:156 inc/admin/dashboard.php:293
+msgid "Sökningar utan träff"
+msgstr ""
+
+#: inc/admin/dashboard.php:160
+msgid "Kampanjer som snart slutar"
+msgstr ""
+
+#: inc/admin/dashboard.php:169
+msgid "Inga kampanjer slutar inom en vecka."
+msgstr ""
+
+#: inc/admin/dashboard.php:182 inc/template-tags.php:170
+msgid "Visa alla"
+msgstr ""
+
+#: inc/admin/dashboard.php:184
+msgid "Inga trasiga länkar hittades vid senaste kontrollen."
+msgstr ""
+
+#: inc/admin/dashboard.php:189
+msgid "Produkter med prissänkning"
+msgstr ""
+
+#: inc/admin/dashboard.php:201
+msgid "Inga prissänkningar de senaste 30 dagarna."
+msgstr ""
+
+#. translators: %s: date and time.
+#: inc/admin/dashboard.php:209
+#, php-format
+msgid "Sortering räknades senast om %s."
+msgstr ""
+
+#: inc/admin/dashboard.php:209
+msgid "Nattlig omräkning har inte körts ännu."
+msgstr ""
+
+#: inc/admin/dashboard.php:211
+msgid "Statistiken innehåller inga personuppgifter. Botar och inloggade redaktörer räknas inte."
+msgstr ""
+
+#. translators: %s: date and time.
+#: inc/admin/dashboard.php:231
+#, php-format
+msgid "Senaste fullständiga kontroll: %s. Kontrollen körs varje natt i omgångar om 25 produkter."
+msgstr ""
+
+#: inc/admin/dashboard.php:232
+msgid "Länkkontrollen körs varje natt i omgångar om 25 produkter."
+msgstr ""
+
+#: inc/admin/dashboard.php:239
+msgid "Starta kontroll nu"
+msgstr ""
+
+#: inc/admin/dashboard.php:242
+msgid "Produkt"
+msgstr ""
+
+#: inc/admin/dashboard.php:242 inc/filters.php:52 inc/taxonomies.php:84 inc/template-tags.php:469 inc/woocommerce.php:469
+msgid "Butik"
+msgstr ""
+
+#: inc/admin/dashboard.php:242
+msgid "Affiliatelänk"
+msgstr ""
+
+#: inc/admin/dashboard.php:242
+msgid "Kontrollerad"
+msgstr ""
+
+#: inc/admin/dashboard.php:245
+msgid "Inga trasiga länkar."
+msgstr ""
+
+#: inc/admin/dashboard.php:273 inc/admin/dashboard.php:394 inc/admin/demo.php:21 inc/admin/getting-started.php:173 inc/menus.php:322
+msgid "Du har inte behörighet att göra detta."
+msgstr ""
+
+#: inc/admin/dashboard.php:289
+msgid "Söktermer loggas anonymt (utan IP-adress eller användare). Lägg till synonymer under Theme Adjustments → Sök för sökningar utan träff."
+msgstr ""
+
+#: inc/admin/dashboard.php:300
+msgid "Sökning"
+msgstr ""
+
+#: inc/admin/dashboard.php:300 inc/widgets/class-ni-widget-links.php:96
+msgid "Antal"
+msgstr ""
+
+#: inc/admin/dashboard.php:300
+msgid "Senast"
+msgstr ""
+
+#: inc/admin/dashboard.php:331
+msgid "Rum + kategori (/rum/sovrum/kategori/belysning/) och stil + kategori (/stil/japandi/kategori/soffor/) är indexerbara sidor. Skriv egen rubrik och ingress för de viktigaste kombinationerna – övriga får en automatisk text."
+msgstr ""
+
+#: inc/admin/dashboard.php:336 inc/admin/dashboard.php:349
+msgid "Rum eller stil"
+msgstr ""
+
+#: inc/admin/dashboard.php:336 inc/admin/dashboard.php:365 inc/filters.php:24
+msgid "Kategori"
+msgstr ""
+
+#: inc/admin/dashboard.php:336 inc/admin/dashboard.php:373 inc/widgets/class-ni-widget-campaign.php:53 inc/widgets/class-ni-widget-inspiration.php:79 inc/widgets/class-ni-widget-links.php:88 inc/widgets/class-ni-widget-newsletter.php:58 inc/widgets/class-ni-widget-terms.php:58
+msgid "Rubrik"
+msgstr ""
+
+#: inc/admin/dashboard.php:336 inc/admin/dashboard.php:374 inc/post-meta.php:59
+msgid "Ingress"
+msgstr ""
+
+#: inc/admin/dashboard.php:336 inc/admin/dashboard.php:375 inc/enqueue.php:319 inc/menus.php:46 inc/taxonomies.php:272
+msgid "Ta bort"
+msgstr ""
+
+#: inc/admin/dashboard.php:351 inc/admin/dashboard.php:367
+msgid "— Välj —"
+msgstr ""
+
+#: inc/admin/dashboard.php:357 inc/enqueue.php:194 inc/menus.php:167 inc/seo.php:41 inc/seo.php:60 inc/taxonomies.php:58 inc/taxonomies.php:60 inc/widgets.php:91
+msgid "Stilar"
+msgstr ""
+
+#: inc/admin/dashboard.php:383
+msgid "Spara landningssidor"
+msgstr ""
+
+#: inc/admin/dashboard.php:426
+msgid "Sparat."
+msgstr ""
+
+#: inc/admin/dashboard.php:427
+msgid "Huvudmenyn är skapad och vald som huvud- och mobilmeny."
+msgstr ""
+
+#: inc/admin/dashboard.php:428
+msgid "Menyn kunde inte skapas."
+msgstr ""
+
+#: inc/admin/dashboard.php:429
+msgid "Länkkontrollen har startat och körs i bakgrunden."
+msgstr ""
+
+#: inc/admin/dashboard.php:430
+msgid "Demoinnehållet är importerat."
+msgstr ""
+
+#: inc/admin/dashboard.php:431
+msgid "Sorteringen är omräknad."
+msgstr ""
+
+#. translators: %s: room name in lowercase.
+#: inc/admin/demo.php:443
+#, php-format
+msgid "Möbler, belysning och inredning för %s – utvalt från Nordens bästa butiker."
+msgstr ""
+
+#. translators: 1: product name, 2: product type in lowercase, 3: material in lowercase, 4: designer.
+#: inc/admin/demo.php:599
+#, php-format
+msgid "%1$s är en tidlös %2$s i %3$s, formgiven av %4$s."
+msgstr ""
+
+#. translators: 1: product name, 2: material in lowercase.
+#: inc/admin/demo.php:603
+#, php-format
+msgid "<p>%1$s kombinerar enkel form med omsorgsfullt valda material. Ytan i %2$s åldras vackert och passar lika bra i ett nordiskt hem som i ett japandi-inspirerat rum.</p><p>Demoprodukt – priser, mått och länkar är exempel.</p>"
+msgstr ""
+
+#: inc/admin/demo.php:637
+msgid "Torka av med lätt fuktad trasa. Undvik direkt solljus."
+msgstr ""
+
+#: inc/admin/demo.php:682
+msgid "Höstrea – upp till 30 % på soffor och fåtöljer"
+msgstr ""
+
+#: inc/admin/demo.php:683
+msgid "Fri frakt på alla mattor"
+msgstr ""
+
+#: inc/admin/demo.php:683
+msgid "Fri frakt"
+msgstr ""
+
+#: inc/admin/demo.php:684
+msgid "20 % på belysning"
+msgstr ""
+
+#: inc/admin/demo.php:696
+msgid "Gäller utvalda produkter så långt lagret räcker. Demokampanj."
+msgstr ""
+
+#: inc/admin/demo.php:735
+msgid "Så väljer du rätt soffa – mått, material och komfort"
+msgstr ""
+
+#: inc/admin/demo.php:736
+msgid "Guide: belysning i sovrummet"
+msgstr ""
+
+#: inc/admin/demo.php:737
+msgid "Japandi hemma – fem enkla grepp"
+msgstr ""
+
+#: inc/admin/demo.php:738
+msgid "Skapa en lugn hall med smart förvaring"
+msgstr ""
+
+#: inc/admin/demo.php:739
+msgid "Shoppa looken: varmt vardagsrum i ek och bouclé"
+msgstr ""
+
+#: inc/admin/demo.php:740
+msgid "Shoppa looken: ljust matrum i japandi"
+msgstr ""
+
+#: inc/admin/demo.php:756
+msgid "Ett hem blir lugnt när varje sak har sin plats och materialen får tala. Här är våra bästa tips – och produkterna vi själva skulle välja."
+msgstr ""
+
+#: inc/admin/demo.php:757
+msgid "Börja med måtten"
+msgstr ""
+
+#: inc/admin/demo.php:758
+msgid "Mät rummet och markera möblernas mått med maskeringstejp på golvet. Lämna minst 80 cm för gångytor och tänk på hur dagsljuset faller."
+msgstr ""
+
+#: inc/admin/demo.php:780
+msgid "Välj material som åldras vackert"
+msgstr ""
+
+#: inc/admin/demo.php:781
+msgid "Massivt trä, ull och linne blir bara vackrare med tiden. Kombinera gärna två träslag och låt textilierna stå för färgen."
+msgstr ""
+
+#: inc/admin/demo.php:788
+msgid "Enkla grepp för ett lugnare, varmare hem – med produkter från Nordens bästa butiker."
+msgstr ""
+
+#: inc/admin/demo.php:810 inc/affiliate.php:25 inc/customizer.php:26
+msgid "Startsida"
+msgstr ""
+
+#: inc/admin/demo.php:812
+msgid "Alla varumärken"
+msgstr ""
+
+#: inc/admin/demo.php:813 inc/taxonomies.php:86
+msgid "Alla butiker"
+msgstr ""
+
+#: inc/admin/demo.php:815 inc/defaults.php:127 inc/menus.php:163 inc/sections.php:191 inc/taxonomies.php:36
+msgid "Alla rum"
+msgstr ""
+
+#: inc/admin/demo.php:816 inc/sections.php:216 inc/taxonomies.php:61
+msgid "Alla stilar"
+msgstr ""
+
+#: inc/admin/demo.php:817
+msgid "Om Nordic Interior"
+msgstr ""
+
+#: inc/admin/demo.php:853
+msgid "Ljust vardagsrum med soffa i bouclé och golvlampa"
+msgstr ""
+
+#: inc/admin/getting-started.php:29
+msgid "WooCommerce är aktiverat"
+msgstr ""
+
+#: inc/admin/getting-started.php:34
+msgid "Måttenhet är centimeter (WooCommerce → Inställningar → Produkter)"
+msgstr ""
+
+#: inc/admin/getting-started.php:39
+msgid "Rum är skapade"
+msgstr ""
+
+#: inc/admin/getting-started.php:44
+msgid "Stilar är skapade"
+msgstr ""
+
+#: inc/admin/getting-started.php:49
+msgid "Butiker med frakt, retur och leveranstid"
+msgstr ""
+
+#: inc/admin/getting-started.php:54
+msgid "Varumärken med logotyp"
+msgstr ""
+
+#: inc/admin/getting-started.php:59
+msgid "Attributen material (pa_material) och färg (pa_farg)"
+msgstr ""
+
+#: inc/admin/getting-started.php:64
+msgid "Produkter är importerade"
+msgstr ""
+
+#: inc/admin/getting-started.php:69
+msgid "Huvudmeny är vald"
+msgstr ""
+
+#: inc/admin/getting-started.php:74
+msgid "En statisk startsida är vald"
+msgstr ""
+
+#: inc/admin/getting-started.php:79
+msgid "Sidor för varumärken, butiker, rea, rum och stilar"
+msgstr ""
+
+#: inc/admin/getting-started.php:84
+msgid "Affiliate-information är ifylld"
+msgstr ""
+
+#: inc/admin/getting-started.php:96
+msgid "Kom igång med Nordic Interior"
+msgstr ""
+
+#: inc/admin/getting-started.php:99
+msgid "Checklista"
+msgstr ""
+
+#: inc/admin/getting-started.php:105
+msgid "(klart)"
+msgstr ""
+
+#: inc/admin/getting-started.php:105
+msgid "(ej klart)"
+msgstr ""
+
+#: inc/admin/getting-started.php:113
+msgid "Skapar ”Huvudmeny” med MÖBLER som mega-meny, BELYSNING, TEXTILIER & MATTOR, RUM och STIL som dropdowns, VARUMÄRKEN, BUTIKER, INSPIRATION och REA i lerfärg. Menyn väljs som huvud- och mobilmeny. En befintlig meny med samma namn byggs om."
+msgstr ""
+
+#: inc/admin/getting-started.php:117 inc/menus.php:135
+msgid "Skapa huvudmeny"
+msgstr ""
+
+#: inc/admin/getting-started.php:123
+msgid "Demoinnehåll"
+msgstr ""
+
+#: inc/admin/getting-started.php:124
+msgid "9 rum, 8 stilar, 16 varumärken, 6 butiker, kategorier i tre nivåer, 60 produkter med material, färg och mått, 3 kampanjer och 6 artiklar (2 med Shoppa looken), sidorna och menyn. Bilderna är enkla platshållare."
+msgstr ""
+
+#: inc/admin/getting-started.php:128
+msgid "Importera demoinnehåll"
+msgstr ""
+
+#: inc/admin/getting-started.php:134
+msgid "Sortering och statistik"
+msgstr ""
+
+#: inc/admin/getting-started.php:135
+msgid "Klick och rabatter räknas om varje natt. Kör omräkningen manuellt efter en stor import."
+msgstr ""
+
+#: inc/admin/getting-started.php:139
+msgid "Räkna om nu"
+msgstr ""
+
+#: inc/admin/getting-started.php:145
+msgid "Produktflöden (WP All Import)"
+msgstr ""
+
+#: inc/admin/getting-started.php:146
+msgid "Importera flöden från Adtraction, Awin, Partner-ads eller Tradedoubler med WP All Import Pro + WooCommerce-tillägget. Välj produkttypen ”Extern/Affiliate-produkt” och mappa fälten så här:"
+msgstr ""
+
+#: inc/admin/getting-started.php:148
+msgid "WooCommerce / tema"
+msgstr ""
+
+#: inc/admin/getting-started.php:150
+msgid "Produkt-URL (_product_url)"
+msgstr ""
+
+#: inc/admin/getting-started.php:151 inc/woocommerce.php:384
+msgid "Ordinarie pris"
+msgstr ""
+
+#: inc/admin/getting-started.php:152
+msgid "Reapris / pris"
+msgstr ""
+
+#: inc/admin/getting-started.php:153
+msgid "SKU"
+msgstr ""
+
+#: inc/admin/getting-started.php:155
+msgid "Fast värde per flöde, t.ex. ”Royal Design”."
+msgstr ""
+
+#: inc/admin/getting-started.php:156
+msgid "Mappa butikens kategori med ”Mapping rules”, t.ex. ”Sofas > 3-seater” → Möbler > Soffor > 3-sitssoffor; rum och stil från nyckelord i namn eller kategori."
+msgstr ""
+
+#: inc/admin/getting-started.php:158
+msgid "Mått: _width, _length (djup), _height"
+msgstr ""
+
+#: inc/admin/getting-started.php:158
+msgid "Centimeter. Tolka t.ex. ”B 210 x D 90 x H 80 cm” med en PHP-funktion i importen (se README)."
+msgstr ""
+
+#: inc/admin/getting-started.php:161
+msgid "Efter varje import sparas prishistorik automatiskt (Prissänkt-badge) och cachen töms. Kör ”Räkna om nu” efter första importen."
+msgstr ""
+
+#: inc/admin/getting-started.php:196
+msgid "Tack för att du valde Nordic Interior!"
+msgstr ""
+
+#: inc/admin/products.php:22 inc/admin/products.php:28
+msgid "Klick (30 d)"
+msgstr ""
+
+#: inc/admin/products.php:23 inc/admin/products.php:29
+msgid "Länk"
+msgstr ""
+
+#: inc/admin/products.php:24 inc/admin/products.php:30
+msgid "Prisändring"
+msgstr ""
+
+#: inc/admin/products.php:50
+msgid "OK"
+msgstr ""
+
+#: inc/admin/products.php:51
+msgid "Trasig"
+msgstr ""
+
+#: inc/admin/products.php:52
+msgid "Okänd"
+msgstr ""
+
+#: inc/admin/products.php:117
+msgid "Affiliate-URL"
+msgstr ""
+
+#: inc/affiliate.php:21
+msgid "Produktkort"
+msgstr ""
+
+#: inc/affiliate.php:22
+msgid "Produktsida"
+msgstr ""
+
+#: inc/affiliate.php:24 inc/customizer.php:24 inc/search.php:730
+msgid "Sök"
+msgstr ""
+
+#: inc/affiliate.php:26 page-templates/brands.php:123 page-templates/sale.php:39 page-templates/stores.php:92 sidebar.php:10 single.php:59
+msgid "Sidofält"
+msgstr ""
+
+#: inc/affiliate.php:27
+msgid "Mejl"
+msgstr ""
+
+#: inc/affiliate.php:28 inc/campaigns.php:22 single-ni_campaign.php:16
+msgid "Kampanj"
+msgstr ""
+
+#. translators: 1: CTA text, 2: store name.
+#: inc/affiliate.php:78
+#, php-format
+msgid "%1$s – %2$s"
+msgstr ""
+
+#. translators: %s: product name.
+#: inc/affiliate.php:92
+#, php-format
+msgid "(%s, öppnas i butiken)"
+msgstr ""
+
+#: inc/campaigns.php:23 inc/campaigns.php:24
+msgid "Lägg till kampanj"
+msgstr ""
+
+#: inc/campaigns.php:25
+msgid "Redigera kampanj"
+msgstr ""
+
+#: inc/campaigns.php:26 inc/sections.php:244
+msgid "Alla kampanjer"
+msgstr ""
+
+#: inc/campaigns.php:27
+msgid "Sök kampanjer"
+msgstr ""
+
+#: inc/campaigns.php:28
+msgid "Inga kampanjer hittades."
+msgstr ""
+
+#: inc/campaigns.php:29
+msgid "Inga kampanjer i papperskorgen."
+msgstr ""
+
+#: inc/campaigns.php:34
+msgctxt "URL slug"
+msgid "kampanjer"
+msgstr ""
+
+#: inc/campaigns.php:36
+msgctxt "URL slug"
+msgid "kampanj"
+msgstr ""
+
+#: inc/campaigns.php:55
+msgid "Kampanjlänk (affiliatelänk)"
+msgstr ""
+
+#: inc/campaigns.php:59 inc/campaigns.php:319 inc/campaigns.php:380
+msgid "Rabattkod"
+msgstr ""
+
+#: inc/campaigns.php:63
+msgid "Badge"
+msgstr ""
+
+#: inc/campaigns.php:65
+msgid "Kort text, t.ex. ”−25 %” eller ”Fri frakt”."
+msgstr ""
+
+#: inc/campaigns.php:68
+msgid "Start"
+msgstr ""
+
+#: inc/campaigns.php:72
+msgid "Slut"
+msgstr ""
+
+#: inc/campaigns.php:76
+msgid "Huvudkampanj"
+msgstr ""
+
+#: inc/campaigns.php:80
+msgid "Extra parametrar (valfritt)"
+msgstr ""
+
+#: inc/campaigns.php:82
+msgid "Läggs till länken, t.ex. subid=startsida. Ersätter globala parametrar med samma namn."
+msgstr ""
+
+#: inc/campaigns.php:91
+msgid "Kampanjinställningar"
+msgstr ""
+
+#: inc/campaigns.php:121
+msgid "Koppla kampanjen till rum, stilar, varumärken och butiker i sidopanelen. Kampanjen visas bara mellan start och slut."
+msgstr ""
+
+#: inc/campaigns.php:124
+msgid "Utgående länk:"
+msgstr ""
+
+#: inc/campaigns.php:318
+msgid "Status"
+msgstr ""
+
+#: inc/campaigns.php:336
+msgid "Aktiv"
+msgstr ""
+
+#: inc/campaigns.php:336
+msgid "Inaktiv"
+msgstr ""
+
+#: inc/campaigns.php:338
+msgid "Huvud"
+msgstr ""
+
+#: inc/campaigns.php:383 inc/enqueue.php:183
+msgid "Kopiera"
+msgstr ""
+
+#. translators: %s: end date of the campaign.
+#: inc/campaigns.php:394
+#, php-format
+msgid "Gäller t.o.m. %s"
+msgstr ""
+
+#: inc/campaigns.php:400
+msgid "Till kampanjen"
+msgstr ""
+
+#: inc/class-ni-customize-sortable-control.php:39
+msgid "Dra för att ändra ordning. Bocka ur för att dölja."
+msgstr ""
+
+#. translators: %s: section name.
+#: inc/class-ni-customize-sortable-control.php:54
+#, php-format
+msgid "Flytta upp %s"
+msgstr ""
+
+#. translators: %s: section name.
+#: inc/class-ni-customize-sortable-control.php:55
+#, php-format
+msgid "Flytta ned %s"
+msgstr ""
+
+#: inc/class-ni-customize-tools-control.php:28
+msgid "Spara alla Theme Adjustments som en JSON-fil, läs in en tidigare export eller återställ standardvärdena."
+msgstr ""
+
+#: inc/class-ni-customize-tools-control.php:29
+msgid "Exportera inställningar"
+msgstr ""
+
+#: inc/class-ni-customize-tools-control.php:31
+msgid "Importera"
+msgstr ""
+
+#: inc/class-ni-customize-tools-control.php:34
+msgid "Återställ till standard"
+msgstr ""
+
+#. translators: %s: menu item title.
+#: inc/class-ni-walker-nav.php:141
+#, php-format
+msgid "Visa undermeny för %s"
+msgstr ""
+
+#: inc/customizer.php:18 inc/template-tags.php:80
+msgid "Färger"
+msgstr ""
+
+#: inc/customizer.php:19
+msgid "Typografi"
+msgstr ""
+
+#: inc/customizer.php:20
+msgid "Form"
+msgstr ""
+
+#: inc/customizer.php:21
+msgid "Header"
+msgstr ""
+
+#: inc/customizer.php:22
+msgid "Sidfot"
+msgstr ""
+
+#: inc/customizer.php:23 inc/enqueue.php:191
+msgid "Produkter"
+msgstr ""
+
+#: inc/customizer.php:25
+msgid "Affiliate"
+msgstr ""
+
+#: inc/customizer.php:27
+msgid "Inlägg"
+msgstr ""
+
+#: inc/customizer.php:28
+msgid "Prestanda"
+msgstr ""
+
+#: inc/customizer.php:29
+msgid "Export, import och återställning"
+msgstr ""
+
+#: inc/customizer.php:67
+msgid "Färgschema"
+msgstr ""
+
+#: inc/customizer.php:73
+msgid "Bläck (primär/rubriker)"
+msgstr ""
+
+#: inc/customizer.php:74 inc/customizer.php:277 inc/widgets/class-ni-widget-about.php:57 inc/widgets/class-ni-widget-newsletter.php:59
+msgid "Text"
+msgstr ""
+
+#: inc/customizer.php:75
+msgid "Dämpad text"
+msgstr ""
+
+#: inc/customizer.php:76 inc/setup.php:78
+msgid "Linne"
+msgstr ""
+
+#: inc/customizer.php:77
+msgid "Havre (bakgrund)"
+msgstr ""
+
+#: inc/customizer.php:78 inc/customizer.php:314
+msgid "Yta"
+msgstr ""
+
+#: inc/customizer.php:79 inc/customizer.php:313
+msgid "Linje"
+msgstr ""
+
+#: inc/customizer.php:80
+msgid "Salvia (accent)"
+msgstr ""
+
+#: inc/customizer.php:81
+msgid "Ek (länk/hover)"
+msgstr ""
+
+#: inc/customizer.php:82
+msgid "Lera (rea)"
+msgstr ""
+
+#: inc/customizer.php:83
+msgid "Mörk sektion"
+msgstr ""
+
+#: inc/customizer.php:92
+msgid "Lämna tomt för att använda färgschemats värde."
+msgstr ""
+
+#: inc/customizer.php:101
+msgid "Rubriktypsnitt (lokalt)"
+msgstr ""
+
+#: inc/customizer.php:107
+msgid "Brödtext (lokalt)"
+msgstr ""
+
+#: inc/customizer.php:113
+msgid "Grundstorlek (px)"
+msgstr ""
+
+#: inc/customizer.php:123
+msgid "Skala"
+msgstr ""
+
+#: inc/customizer.php:125
+msgid "Liten (1,2)"
+msgstr ""
+
+#: inc/customizer.php:126
+msgid "Normal (1,25)"
+msgstr ""
+
+#: inc/customizer.php:127
+msgid "Stor (1,333)"
+msgstr ""
+
+#: inc/customizer.php:134
+msgid "Radavstånd"
+msgstr ""
+
+#: inc/customizer.php:143
+msgid "Teckenavstånd rubriker (em)"
+msgstr ""
+
+#: inc/customizer.php:154
+msgid "Versaler i huvudrubriker"
+msgstr ""
+
+#: inc/customizer.php:161
+msgid "Hörnradie (px)"
+msgstr ""
+
+#: inc/customizer.php:172
+msgid "Tunna kantlinjer"
+msgstr ""
+
+#: inc/customizer.php:178
+msgid "Luft"
+msgstr ""
+
+#: inc/customizer.php:180
+msgid "Kompakt"
+msgstr ""
+
+#: inc/customizer.php:181
+msgid "Normal"
+msgstr ""
+
+#: inc/customizer.php:182
+msgid "Luftig"
+msgstr ""
+
+#: inc/customizer.php:188
+msgid "Knappstil"
+msgstr ""
+
+#: inc/customizer.php:190
+msgid "Fylld"
+msgstr ""
+
+#: inc/customizer.php:191
+msgid "Kontur"
+msgstr ""
+
+#: inc/customizer.php:192 inc/customizer.php:386
+msgid "Textlänk med pil"
+msgstr ""
+
+#: inc/customizer.php:199
+msgid "Layout"
+msgstr ""
+
+#: inc/customizer.php:201
+msgid "Logotyp till vänster, meny till höger"
+msgstr ""
+
+#: inc/customizer.php:202
+msgid "Centrerad logotyp"
+msgstr ""
+
+#: inc/customizer.php:209
+msgid "Sticky och krympande header"
+msgstr ""
+
+#: inc/customizer.php:215
+msgid "Ordbild"
+msgstr ""
+
+#: inc/customizer.php:217
+msgid "Två rader"
+msgstr ""
+
+#: inc/customizer.php:218
+msgid "En rad"
+msgstr ""
+
+#: inc/customizer.php:224
+msgid "Logobredd (px)"
+msgstr ""
+
+#: inc/customizer.php:235
+msgid "Visa knappen för rum-menyn"
+msgstr ""
+
+#: inc/customizer.php:241
+msgid "Knapptext för rum-menyn"
+msgstr ""
+
+#: inc/customizer.php:247
+msgid "Visa toppfält"
+msgstr ""
+
+#: inc/customizer.php:253
+msgid "Toppfält – USP 1"
+msgstr ""
+
+#: inc/customizer.php:258
+msgid "Toppfält – USP 2"
+msgstr ""
+
+#: inc/customizer.php:264
+msgid "Bottennavigering på mobil (Hem, Rum, Varumärken, Rea)"
+msgstr ""
+
+#: inc/customizer.php:271
+msgid "Bakgrund"
+msgstr ""
+
+#: inc/customizer.php:283
+msgid "Copyright"
+msgstr ""
+
+#: inc/customizer.php:284
+msgid "{year} ersätts med aktuellt år."
+msgstr ""
+
+#: inc/customizer.php:310
+msgid "Kortstil"
+msgstr ""
+
+#: inc/customizer.php:312
+msgid "Minimal"
+msgstr ""
+
+#: inc/customizer.php:320
+msgid "Bildförhållande"
+msgstr ""
+
+#: inc/customizer.php:329
+msgid "Kolumner – dator"
+msgstr ""
+
+#: inc/customizer.php:338
+msgid "Kolumner – surfplatta"
+msgstr ""
+
+#: inc/customizer.php:347
+msgid "Kolumner – mobil"
+msgstr ""
+
+#: inc/customizer.php:357
+msgid "Visa varumärke på kort"
+msgstr ""
+
+#: inc/customizer.php:364
+msgid "Visa butik på kort"
+msgstr ""
+
+#: inc/customizer.php:371
+msgid "Visa färgprickar på kort"
+msgstr ""
+
+#: inc/customizer.php:378
+msgid "Visa ”Till butiken” på kort"
+msgstr ""
+
+#: inc/customizer.php:384
+msgid "CTA på kort"
+msgstr ""
+
+#: inc/customizer.php:387
+msgid "Tunn knapp"
+msgstr ""
+
+#: inc/customizer.php:393
+msgid "CTA-text"
+msgstr ""
+
+#: inc/customizer.php:398
+msgid "Filtrens position"
+msgstr ""
+
+#: inc/customizer.php:399
+msgid "På mobil visas filtren alltid i en utfällbar panel."
+msgstr ""
+
+#: inc/customizer.php:401
+msgid "Vänster"
+msgstr ""
+
+#: inc/customizer.php:402
+msgid "Ovanför"
+msgstr ""
+
+#: inc/customizer.php:403
+msgid "Utfällbar panel"
+msgstr ""
+
+#: inc/customizer.php:409
+msgid "Paginering"
+msgstr ""
+
+#: inc/customizer.php:411 inc/enqueue.php:201 inc/template-tags.php:295
+msgid "Ladda fler"
+msgstr ""
+
+#: inc/customizer.php:412
+msgid "Sidnummer"
+msgstr ""
+
+#: inc/customizer.php:418
+msgid "Produkter per sida"
+msgstr ""
+
+#: inc/customizer.php:427
+msgid "Platshållare"
+msgstr ""
+
+#: inc/customizer.php:432
+msgid "Grupper i live-sök"
+msgstr ""
+
+#: inc/customizer.php:433
+msgid "Kommaseparerat i önskad ordning: product, product_cat, ni_room, ni_style, product_brand, post."
+msgstr ""
+
+#: inc/customizer.php:439
+msgid "En per rad. Visas som chips under sökfältet."
+msgstr ""
+
+#: inc/customizer.php:445
+msgid "Fyll på med de vanligaste sökningarna"
+msgstr ""
+
+#: inc/customizer.php:451
+msgid "Synonymer"
+msgstr ""
+
+#: inc/customizer.php:452
+msgid "En grupp per rad, separerad med kommatecken, t.ex. ”byrå, kommod”."
+msgstr ""
+
+#: inc/customizer.php:459
+msgid "Öppna butikslänkar i ny flik"
+msgstr ""
+
+#: inc/customizer.php:465
+msgid "Affiliate-information"
+msgstr ""
+
+#: inc/customizer.php:471
+msgid "Visa i sidfoten"
+msgstr ""
+
+#: inc/customizer.php:478
+msgid "Visa på produktsidor"
+msgstr ""
+
+#: inc/customizer.php:485
+msgid "Visa i listningar"
+msgstr ""
+
+#: inc/customizer.php:492
+msgid "Visa i artiklar"
+msgstr ""
+
+#: inc/customizer.php:498
+msgid "Prefix för kampanjlänkar"
+msgstr ""
+
+#: inc/customizer.php:499
+msgid "Standard ”go” ger /go/c/{id}/. Spara Permalänkar efter ändring."
+msgstr ""
+
+#: inc/customizer.php:504
+msgid "UTM-parametrar för kampanjer"
+msgstr ""
+
+#: inc/customizer.php:505
+msgid "Variabler: {id}, {slug}, {placement}."
+msgstr ""
+
+#: inc/customizer.php:510
+msgid "SubID-parameter"
+msgstr ""
+
+#: inc/customizer.php:511
+msgid "T.ex. epi={placement} (Adtraction) eller clickref={slug} (Awin)."
+msgstr ""
+
+#: inc/customizer.php:517
+msgid "Sektioner och ordning"
+msgstr ""
+
+#: inc/customizer.php:527
+msgid "Hero – rubrik"
+msgstr ""
+
+#: inc/customizer.php:532
+msgid "Hero – text"
+msgstr ""
+
+#: inc/customizer.php:537
+msgid "Hero – bild 1"
+msgstr ""
+
+#: inc/customizer.php:542
+msgid "Hero – bild 2 (bildspel)"
+msgstr ""
+
+#: inc/customizer.php:547
+msgid "Hero – bild 3 (bildspel)"
+msgstr ""
+
+#: inc/customizer.php:553
+msgid "Visa bilderna som bildspel"
+msgstr ""
+
+#: inc/customizer.php:559
+msgid "Rum – rubrik"
+msgstr ""
+
+#: inc/customizer.php:564
+msgid "Rum – källa"
+msgstr ""
+
+#: inc/customizer.php:566
+msgid "Flaggade (”Populärt just nu”)"
+msgstr ""
+
+#: inc/customizer.php:567
+msgid "Säsong"
+msgstr ""
+
+#: inc/customizer.php:568
+msgid "Klick"
+msgstr ""
+
+#: inc/customizer.php:569 inc/taxonomies.php:152 inc/taxonomies.php:168 inc/taxonomies.php:190 inc/taxonomies.php:219
+msgid "Ordning"
+msgstr ""
+
+#: inc/customizer.php:575
+msgid "Rum – antal"
+msgstr ""
+
+#: inc/customizer.php:583
+msgid "Stilar – rubrik"
+msgstr ""
+
+#: inc/customizer.php:588
+msgid "Stilar – antal"
+msgstr ""
+
+#: inc/customizer.php:596
+msgid "Produkter – rubrik"
+msgstr ""
+
+#: inc/customizer.php:601
+msgid "Produkter – urval"
+msgstr ""
+
+#: inc/customizer.php:603 inc/filters.php:101
+msgid "Populärast"
+msgstr ""
+
+#: inc/customizer.php:604
+msgid "Nytt"
+msgstr ""
+
+#: inc/customizer.php:606
+msgid "Utvalda"
+msgstr ""
+
+#: inc/customizer.php:607
+msgid "Handplockade"
+msgstr ""
+
+#: inc/customizer.php:613
+msgid "Handplockade produkt-ID:n"
+msgstr ""
+
+#: inc/customizer.php:618
+msgid "Flikar"
+msgstr ""
+
+#: inc/customizer.php:620
+msgid "Per rum"
+msgstr ""
+
+#: inc/customizer.php:621
+msgid "Per kategori"
+msgstr ""
+
+#: inc/customizer.php:622
+msgid "Inga flikar"
+msgstr ""
+
+#: inc/customizer.php:628
+msgid "Flikar – val och ordning"
+msgstr ""
+
+#: inc/customizer.php:629
+msgid "Slugs separerade med kommatecken, t.ex. vardagsrum,sovrum,kok."
+msgstr ""
+
+#: inc/customizer.php:634
+msgid "Produkter per flik"
+msgstr ""
+
+#: inc/customizer.php:642
+msgid "Shoppa looken – inlägg"
+msgstr ""
+
+#: inc/customizer.php:647
+msgid "Inspiration – rubrik"
+msgstr ""
+
+#: inc/customizer.php:652
+msgid "Varumärken – rubrik"
+msgstr ""
+
+#: inc/customizer.php:657
+msgid "Kategorier – rubrik"
+msgstr ""
+
+#: inc/customizer.php:662
+msgid "Nyhetsbrev – rubrik"
+msgstr ""
+
+#: inc/customizer.php:667
+msgid "Nyhetsbrev – text"
+msgstr ""
+
+#: inc/customizer.php:672
+msgid "Nyhetsbrev – formulär-shortcode"
+msgstr ""
+
+#: inc/customizer.php:678
+msgid "Sidofältets placering"
+msgstr ""
+
+#: inc/customizer.php:680
+msgid "Till höger (under innehållet på mobil)"
+msgstr ""
+
+#: inc/customizer.php:681
+msgid "Inget sidofält"
+msgstr ""
+
+#: inc/customizer.php:689
+msgid "Förladda typsnitt"
+msgstr ""
+
+#: inc/customizer.php:696
+msgid "Förladda hero-bilden (LCP)"
+msgstr ""
+
+#: inc/customizer.php:703
+msgid "Skapa WebP-versioner av uppladdade bilder"
+msgstr ""
+
+#: inc/customizer.php:710
+msgid "Ta bort emoji-skript"
+msgstr ""
+
+#: inc/customizer.php:717
+msgid "Ladda inte WooCommerce block-CSS"
+msgstr ""
+
+#: inc/customizer.php:774
+msgid "Theme Adjustments"
+msgstr ""
+
+#: inc/customizer.php:775
+msgid "Alla designval för Nordic Interior. Ändringar förhandsgranskas direkt."
+msgstr ""
+
+#: inc/customizer.php:894
+msgid "Inställningar"
+msgstr ""
+
+#: inc/customizer.php:948
+msgid "Återställa alla Theme Adjustments till standard? Detta går inte att ångra."
+msgstr ""
+
+#: inc/customizer.php:949
+msgid "Importera inställningarna? Nuvarande värden skrivs över."
+msgstr ""
+
+#: inc/customizer.php:950
+msgid "Klart – laddar om …"
+msgstr ""
+
+#: inc/customizer.php:951
+msgid "Något gick fel."
+msgstr ""
+
+#: inc/customizer.php:998
+msgid "Ogiltig fil."
+msgstr ""
+
+#: inc/defaults.php:22
+msgid "Linne (standard)"
+msgstr ""
+
+#: inc/defaults.php:38 inc/setup.php:88
+msgid "Salvia"
+msgstr ""
+
+#: inc/defaults.php:54 inc/setup.php:93
+msgid "Ek"
+msgstr ""
+
+#: inc/defaults.php:70
+msgid "Sand"
+msgstr ""
+
+#: inc/defaults.php:130
+msgid "Jämför inredning från Nordens bästa butiker"
+msgstr ""
+
+#: inc/defaults.php:131
+msgid "Handplockat av inredare"
+msgstr ""
+
+#: inc/defaults.php:136
+msgid "© {year} Nordic Interior. Alla rättigheter förbehållna."
+msgstr ""
+
+#: inc/defaults.php:152
+msgid "Till butiken"
+msgstr ""
+
+#: inc/defaults.php:157
+msgid "Sök soffa, lampa, matta, varumärke …"
+msgstr ""
+
+#: inc/defaults.php:159
+msgid "Bouclé\nSoffbord\nTaklampa\nUllmatta\nJapandi\nSänggavel"
+msgstr ""
+
+#: inc/defaults.php:161
+msgid "byrå, kommod\npall, puff\nsoffa, soffor, sofa\nlampa, belysning, armatur\nmatta, mattor\nsoffbord, vardagsrumsbord\nsänggavel, huvudgavel\ngarderob, klädskåp"
+msgstr ""
+
+#: inc/defaults.php:164
+msgid "Nordic Interior innehåller affiliatelänkar. När du klickar vidare och handlar hos en butik kan vi få provision. Det kostar inget extra för dig och påverkar aldrig vilka produkter vi visar."
+msgstr ""
+
+#: inc/defaults.php:175
+msgid "Inred med omtanke"
+msgstr ""
+
+#: inc/defaults.php:176
+msgid "Möbler och inredning från Nordens bästa butiker – samlat, sorterat efter rum och stil."
+msgstr ""
+
+#: inc/defaults.php:181 inc/sections.php:20
+msgid "Shoppa efter rum"
+msgstr ""
+
+#: inc/defaults.php:184 inc/sections.php:21
+msgid "Shoppa efter stil"
+msgstr ""
+
+#: inc/defaults.php:186 inc/taxonomies.php:148
+msgid "Populärt just nu"
+msgstr ""
+
+#: inc/defaults.php:195 inc/enqueue.php:192 inc/sections.php:27 inc/widgets/class-ni-widget-links.php:38
+msgid "Kategorier"
+msgstr ""
+
+#: inc/defaults.php:196
+msgid "Inspiration i inkorgen"
+msgstr ""
+
+#: inc/defaults.php:197
+msgid "Nyheter, guider och de bästa kampanjerna – en gång i veckan."
+msgstr ""
+
+#: inc/enqueue.php:46
+msgid "Systemtypsnitt"
+msgstr ""
+
+#: inc/enqueue.php:182
+msgid "Kopierad!"
+msgstr ""
+
+#: inc/enqueue.php:184
+msgid "Inga förslag. Tryck Enter för att söka."
+msgstr ""
+
+#. translators: %d: number of suggestions.
+#: inc/enqueue.php:186
+#, php-format
+msgid "%d förslag"
+msgstr ""
+
+#. translators: %s: search query.
+#: inc/enqueue.php:188
+#, php-format
+msgid "Visa alla resultat för ”%s”"
+msgstr ""
+
+#: inc/enqueue.php:189
+msgid "Laddar …"
+msgstr ""
+
+#: inc/enqueue.php:196 search.php:79
+msgid "Artiklar"
+msgstr ""
+
+#: inc/enqueue.php:198 search.php:50 template-parts/listing.php:55
+msgid "Menade du"
+msgstr ""
+
+#: inc/enqueue.php:199
+msgid "d"
+msgstr ""
+
+#: inc/enqueue.php:200
+msgid "Kampanjen har avslutats"
+msgstr ""
+
+#: inc/enqueue.php:202 template-parts/filters.php:23 template-parts/listing-toolbar.php:19
+msgid "Filter"
+msgstr ""
+
+#. translators: %d: number of products.
+#: inc/enqueue.php:204
+#, php-format
+msgid "%d produkter"
+msgstr ""
+
+#: inc/enqueue.php:205
+msgid "Något gick fel. Försök igen."
+msgstr ""
+
+#: inc/enqueue.php:317 inc/menus.php:45 inc/taxonomies.php:271
+msgid "Välj bild"
+msgstr ""
+
+#: inc/enqueue.php:318
+msgid "Använd bild"
+msgstr ""
+
+#: inc/enqueue.php:320
+msgid "Produkt-ID för punkten"
+msgstr ""
+
+#: inc/filters.php:32 inc/taxonomies.php:59 inc/template-tags.php:467
+msgid "Stil"
+msgstr ""
+
+#: inc/filters.php:36 inc/woocommerce.php:403
+msgid "Färg"
+msgstr ""
+
+#: inc/filters.php:40 inc/woocommerce.php:402
+msgid "Material"
+msgstr ""
+
+#: inc/filters.php:44 inc/template-tags.php:468 inc/woocommerce.php:459
+msgid "Varumärke"
+msgstr ""
+
+#: inc/filters.php:48 inc/woocommerce.php:404
+msgid "Designer"
+msgstr ""
+
+#: inc/filters.php:72
+msgid "Pris"
+msgstr ""
+
+#: inc/filters.php:77 inc/woocommerce.php:436
+msgid "Bredd"
+msgstr ""
+
+#: inc/filters.php:82 inc/woocommerce.php:437
+msgid "Djup"
+msgstr ""
+
+#: inc/filters.php:87 inc/woocommerce.php:438
+msgid "Höjd"
+msgstr ""
+
+#: inc/filters.php:100
+msgid "Rekommenderat"
+msgstr ""
+
+#: inc/filters.php:102
+msgid "Pris: lågt till högt"
+msgstr ""
+
+#: inc/filters.php:103
+msgid "Pris: högt till lågt"
+msgstr ""
+
+#: inc/filters.php:104
+msgid "Nyast"
+msgstr ""
+
+#: inc/filters.php:105
+msgid "Största rabatt"
+msgstr ""
+
+#: inc/menus.php:33
+msgid "Mega-meny (nivå 2 blir kolumnrubriker, nivå 3 länkar)"
+msgstr ""
+
+#: inc/menus.php:37
+msgid "Kolumner (2–5)"
+msgstr ""
+
+#: inc/menus.php:42
+msgid "Stämningsbild (valfri)"
+msgstr ""
+
+#: inc/menus.php:49
+msgid "Bildtext, t.ex. ”Nyheter i höst”"
+msgstr ""
+
+#: inc/menus.php:54
+msgid "Bildlänk"
+msgstr ""
+
+#: inc/menus.php:239
+msgid "MÖBLER"
+msgstr ""
+
+#: inc/menus.php:240
+msgid "BELYSNING"
+msgstr ""
+
+#: inc/menus.php:241
+msgid "TEXTILIER & MATTOR"
+msgstr ""
+
+#: inc/menus.php:281
+msgid "RUM"
+msgstr ""
+
+#: inc/menus.php:285
+msgid "STIL"
+msgstr ""
+
+#: inc/menus.php:289
+msgid "VARUMÄRKEN"
+msgstr ""
+
+#: inc/menus.php:290
+msgid "BUTIKER"
+msgstr ""
+
+#: inc/menus.php:296 inc/menus.php:302
+msgid "INSPIRATION"
+msgstr ""
+
+#: inc/menus.php:307
+msgid "REA"
+msgstr ""
+
+#: inc/post-meta.php:61
+msgid "Visas under rubriken. Lämnas tomt används utdraget."
+msgstr ""
+
+#: inc/post-meta.php:64
+msgid "Relaterade produkter"
+msgstr ""
+
+#: inc/post-meta.php:66
+msgid "Produkt-ID:n separerade med kommatecken. Visas som produktrad under artikeln."
+msgstr ""
+
+#. translators: %s: series name.
+#: inc/related.php:164
+#, php-format
+msgid "Fler från serien %s"
+msgstr ""
+
+#. translators: %s: designer or brand name.
+#: inc/related.php:191
+#, php-format
+msgid "Fler från %s"
+msgstr ""
+
+#: inc/related.php:219
+msgid "Måttskiss"
+msgstr ""
+
+#. translators: %s: width.
+#: inc/related.php:221
+#, php-format
+msgid "B %s"
+msgstr ""
+
+#. translators: %s: height.
+#: inc/related.php:223
+#, php-format
+msgid "H %s"
+msgstr ""
+
+#. translators: %s: depth.
+#: inc/related.php:225
+#, php-format
+msgid "D %s"
+msgstr ""
+
+#. translators: 1: width, 2: depth, 3: height.
+#: inc/related.php:227
+#, php-format
+msgid "Bredd %1$s, djup %2$s, höjd %3$s."
+msgstr ""
+
+#: inc/rewrites.php:19 inc/rewrites.php:64 inc/taxonomies.php:43
+msgctxt "URL slug"
+msgid "rum"
+msgstr ""
+
+#: inc/rewrites.php:20 inc/rewrites.php:64 inc/taxonomies.php:68
+msgctxt "URL slug"
+msgid "stil"
+msgstr ""
+
+#: inc/rewrites.php:21 inc/rewrites.php:65
+msgctxt "URL slug"
+msgid "kategori"
+msgstr ""
+
+#. translators: 1: category name, 2: style name in lowercase.
+#: inc/rewrites.php:93
+#, php-format
+msgid "%1$s i %2$s stil"
+msgstr ""
+
+#. translators: 1: category name in lowercase, 2: style name.
+#: inc/rewrites.php:95
+#, php-format
+msgid "Utvalda %1$s i %2$s stil från Nordens bästa butiker. Jämför pris, material och mått – och klicka vidare till butiken när du hittat rätt."
+msgstr ""
+
+#. translators: 1: category name, 2: room name in lowercase.
+#: inc/rewrites.php:98
+#, php-format
+msgid "%1$s för %2$s"
+msgstr ""
+
+#. translators: 1: category name in lowercase, 2: room name in lowercase.
+#: inc/rewrites.php:100
+#, php-format
+msgid "%1$s som passar i %2$s – handplockade från Nordens bästa butiker. Filtrera på stil, material, färg och mått."
+msgstr ""
+
+#: inc/search.php:712
+msgid "Sök inredning"
+msgstr ""
+
+#: inc/search.php:732
+msgid "Sökförslag"
+msgstr ""
+
+#: inc/search.php:739
+msgid "Populärt:"
+msgstr ""
+
+#: inc/sections.php:19
+msgid "Hero med sök"
+msgstr ""
+
+#: inc/sections.php:23
+msgid "Produkter i flikar"
+msgstr ""
+
+#: inc/sections.php:28
+msgid "Nyhetsbrev och affiliate-information"
+msgstr ""
+
+#: inc/sections.php:127
+msgid "Pausa bildspelet"
+msgstr ""
+
+#: inc/sections.php:361
+msgid "Visa fler"
+msgstr ""
+
+#: inc/sections.php:408
+msgid "Läs artikeln"
+msgstr ""
+
+#: inc/sections.php:438 inc/widgets/class-ni-widget-inspiration.php:60
+msgid "Mer inspiration"
+msgstr ""
+
+#: inc/sections.php:470
+msgid "Alla varumärken A–Ö"
+msgstr ""
+
+#: inc/sections.php:574
+msgid "E-postadress"
+msgstr ""
+
+#: inc/sections.php:575
+msgid "Din e-postadress"
+msgstr ""
+
+#: inc/sections.php:576
+msgid "Prenumerera"
+msgstr ""
+
+#: inc/sections.php:579
+msgid "Lägg in formulärets shortcode under Theme Adjustments → Startsida → Nyhetsbrev."
+msgstr ""
+
+#: inc/seo.php:62 inc/taxonomies.php:83 inc/taxonomies.php:85 inc/widgets/class-ni-widget-links.php:40
+msgid "Butiker"
+msgstr ""
+
+#. translators: %s: search query.
+#: inc/seo.php:140
+#, php-format
+msgid "Sök: %s"
+msgstr ""
+
+#: inc/seo.php:145
+msgid "Alla produkter"
+msgstr ""
+
+#: inc/seo.php:173
+msgid "Brödsmulor"
+msgstr ""
+
+#: inc/seo.php:469
+msgid "Spara"
+msgstr ""
+
+#: inc/seo.php:470
+msgid "på Pinterest (öppnas i nytt fönster)"
+msgstr ""
+
+#: inc/setup.php:73
+msgid "Bläck"
+msgstr ""
+
+#: inc/setup.php:83
+msgid "Havre"
+msgstr ""
+
+#: inc/setup.php:98
+msgid "Lera"
+msgstr ""
+
+#: inc/shop-the-look.php:34
+msgid "Rumsbild med klickbara produktpunkter."
+msgstr ""
+
+#. translators: %s: product name.
+#: inc/shop-the-look.php:181
+#, php-format
+msgid "Visa produkt: %s"
+msgstr ""
+
+#: inc/shop-the-look.php:188
+msgid "Stäng"
+msgstr ""
+
+#: inc/shop-the-look.php:199
+msgid "Produkter i looken"
+msgstr ""
+
+#: inc/shop-the-look.php:291
+msgid "Senaste inlägget med Shoppa looken"
+msgstr ""
+
+#: inc/taxonomies.php:37
+msgid "Redigera rum"
+msgstr ""
+
+#: inc/taxonomies.php:38
+msgid "Lägg till rum"
+msgstr ""
+
+#: inc/taxonomies.php:39
+msgid "Sök rum"
+msgstr ""
+
+#: inc/taxonomies.php:40
+msgid "Inga rum hittades."
+msgstr ""
+
+#: inc/taxonomies.php:62
+msgid "Redigera stil"
+msgstr ""
+
+#: inc/taxonomies.php:63
+msgid "Lägg till stil"
+msgstr ""
+
+#: inc/taxonomies.php:64
+msgid "Sök stilar"
+msgstr ""
+
+#: inc/taxonomies.php:65
+msgid "Inga stilar hittades."
+msgstr ""
+
+#: inc/taxonomies.php:87
+msgid "Redigera butik"
+msgstr ""
+
+#: inc/taxonomies.php:88
+msgid "Lägg till butik"
+msgstr ""
+
+#: inc/taxonomies.php:89
+msgid "Sök butiker"
+msgstr ""
+
+#: inc/taxonomies.php:90
+msgid "Inga butiker hittades."
+msgstr ""
+
+#: inc/taxonomies.php:93
+msgctxt "URL slug"
+msgid "butik"
+msgstr ""
+
+#: inc/taxonomies.php:128
+msgid "Säsongsmånader"
+msgstr ""
+
+#: inc/taxonomies.php:129
+msgid "Rummet lyfts på startsidan under dessa månader när källan är ”Säsong”."
+msgstr ""
+
+#: inc/taxonomies.php:139 inc/taxonomies.php:159
+msgid "Stämningsbild"
+msgstr ""
+
+#: inc/taxonomies.php:143 inc/taxonomies.php:225
+msgid "Färgton"
+msgstr ""
+
+#: inc/taxonomies.php:144
+msgid "Bakgrundston för kort och sidhuvud."
+msgstr ""
+
+#: inc/taxonomies.php:163
+msgid "Kort beskrivning"
+msgstr ""
+
+#: inc/taxonomies.php:164
+msgid "Visas på kort och i sidhuvudet."
+msgstr ""
+
+#: inc/taxonomies.php:174 inc/taxonomies.php:196
+msgid "Logotyp"
+msgstr ""
+
+#: inc/taxonomies.php:178
+msgid "Utvalt varumärke"
+msgstr ""
+
+#: inc/taxonomies.php:182 inc/taxonomies.php:200
+msgid "Webbplats"
+msgstr ""
+
+#: inc/taxonomies.php:186
+msgid "Ursprungsland"
+msgstr ""
+
+#: inc/taxonomies.php:204
+msgid "Fraktinfo"
+msgstr ""
+
+#: inc/taxonomies.php:205
+msgid "T.ex. ”Fri frakt över 499 kr”."
+msgstr ""
+
+#: inc/taxonomies.php:209
+msgid "Returrätt"
+msgstr ""
+
+#: inc/taxonomies.php:210
+msgid "T.ex. ”30 dagars öppet köp”."
+msgstr ""
+
+#: inc/taxonomies.php:214
+msgid "Leveranstid"
+msgstr ""
+
+#: inc/taxonomies.php:215
+msgid "T.ex. ”2–5 arbetsdagar”."
+msgstr ""
+
+#. translators: %d: discount percentage.
+#: inc/template-tags.php:58 template-parts/product.php:60
+#, php-format
+msgid "−%d %%"
+msgstr ""
+
+#: inc/template-tags.php:63 template-parts/product.php:113
+msgid "Prissänkt"
+msgstr ""
+
+#: inc/template-tags.php:123
+msgid "Föregående"
+msgstr ""
+
+#: inc/template-tags.php:124
+msgid "Nästa"
+msgstr ""
+
+#. translators: 1: shown products, 2: total products.
+#: inc/template-tags.php:289
+#, php-format
+msgid "Visar %1$d av %2$d"
+msgstr ""
+
+#: inc/template-tags.php:305
+msgid "Föregående sida"
+msgstr ""
+
+#: inc/template-tags.php:306
+msgid "Nästa sida"
+msgstr ""
+
+#: inc/template-tags.php:311
+msgid "Sidnumrering"
+msgstr ""
+
+#. translators: %s: search query.
+#: inc/template-tags.php:410
+#, php-format
+msgid "Sökresultat för ”%s”"
+msgstr ""
+
+#: inc/template-tags.php:411
+msgid "Vi tolkade din sökning som filter:"
+msgstr ""
+
+#: inc/template-tags.php:423
+msgid "Alla produkter som är på rea just nu – största rabatt först."
+msgstr ""
+
+#: inc/widgets.php:24
+msgid "Sidfot 1 – Om oss"
+msgstr ""
+
+#: inc/widgets.php:24
+msgid "Logotyp, text och sociala länkar."
+msgstr ""
+
+#: inc/widgets.php:25
+msgid "Sidfot 2 – Länklista"
+msgstr ""
+
+#: inc/widgets.php:25
+msgid "Rum, stilar, kategorier, varumärken eller butiker."
+msgstr ""
+
+#: inc/widgets.php:26
+msgid "Sidfot 3 – Nyhetsbrev"
+msgstr ""
+
+#: inc/widgets.php:26
+msgid "Text och formulär-shortcode."
+msgstr ""
+
+#: inc/widgets.php:27
+msgid "Blogg-sidofält"
+msgstr ""
+
+#: inc/widgets.php:27
+msgid "Visas till höger om inlägg."
+msgstr ""
+
+#: inc/widgets.php:28
+msgid "Varumärken-sidofält"
+msgstr ""
+
+#: inc/widgets.php:28
+msgid "Visas på Alla varumärken."
+msgstr ""
+
+#: inc/widgets.php:29
+msgid "Butiker-sidofält"
+msgstr ""
+
+#: inc/widgets.php:29
+msgid "Visas på Alla butiker."
+msgstr ""
+
+#: inc/widgets.php:30
+msgid "Rea-sidofält"
+msgstr ""
+
+#: inc/widgets.php:30
+msgid "Visas på Rea-sidan."
+msgstr ""
+
+#: inc/widgets/class-ni-widget-about.php:21
+msgid "NI: Om oss"
+msgstr ""
+
+#: inc/widgets/class-ni-widget-about.php:23
+msgid "Logotyp, text och sociala länkar (Instagram och Pinterest först)."
+msgstr ""
+
+#: inc/widgets/class-ni-widget-about.php:36
+msgid "Nordic Interior samlar möbler och inredning från Nordens bästa butiker. Vi jämför, sorterar efter rum och stil och skickar dig vidare när du hittat rätt."
+msgstr ""
+
+#: inc/widgets/class-ni-widget-about.php:60
+msgid "Sociala länkar ställs in under Theme Adjustments → Sidfot."
+msgstr ""
+
+#: inc/widgets/class-ni-widget-campaign.php:21
+msgid "NI: Aktuell kampanj"
+msgstr ""
+
+#: inc/widgets/class-ni-widget-campaign.php:22
+msgid "Visar huvudkampanjen eller den senaste aktiva kampanjen."
+msgstr ""
+
+#: inc/widgets/class-ni-widget-campaign.php:38 page-templates/stores.php:54
+msgid "Kampanj just nu"
+msgstr ""
+
+#: inc/widgets/class-ni-widget-inspiration.php:21
+msgid "NI: Mer inspiration"
+msgstr ""
+
+#: inc/widgets/class-ni-widget-inspiration.php:22
+msgid "Artiklar från samma rum eller stil."
+msgstr ""
+
+#: inc/widgets/class-ni-widget-links.php:21
+msgid "NI: Länklista"
+msgstr ""
+
+#: inc/widgets/class-ni-widget-links.php:23
+msgid "Lista med rum, stilar, kategorier, varumärken eller butiker."
+msgstr ""
+
+#: inc/widgets/class-ni-widget-links.php:90
+msgid "Innehåll"
+msgstr ""
+
+#: inc/widgets/class-ni-widget-newsletter.php:21
+msgid "NI: Nyhetsbrev"
+msgstr ""
+
+#: inc/widgets/class-ni-widget-newsletter.php:23
+msgid "Text och formulär från valfritt nyhetsbrevsplugin (shortcode)."
+msgstr ""
+
+#: inc/widgets/class-ni-widget-newsletter.php:60
+msgid "Formulär-shortcode, t.ex. [mc4wp_form id=\"1\"]"
+msgstr ""
+
+#: inc/widgets/class-ni-widget-terms.php:21
+msgid "NI: Populära rum och stilar"
+msgstr ""
+
+#: inc/widgets/class-ni-widget-terms.php:22
+msgid "Chips med populära rum och stilar."
+msgstr ""
+
+#: inc/widgets/class-ni-widget-terms.php:39
+msgid "Populära rum och stilar"
+msgstr ""
+
+#: inc/woocommerce.php:122
+msgid "Serie"
+msgstr ""
+
+#: inc/woocommerce.php:124
+msgid "Används för ”Fler från samma serie”."
+msgstr ""
+
+#: inc/woocommerce.php:130 inc/woocommerce.php:451
+msgid "Skötsel"
+msgstr ""
+
+#: inc/woocommerce.php:136
+msgid "Leveranstid (valfri)"
+msgstr ""
+
+#: inc/woocommerce.php:138
+msgid "Ersätter butikens leveranstid för denna produkt."
+msgstr ""
+
+#: inc/woocommerce.php:176
+msgid "Färgprick"
+msgstr ""
+
+#: inc/woocommerce.php:177
+msgid "Färgen som visas i filter och på produktkort."
+msgstr ""
+
+#: inc/woocommerce.php:383
+msgid "Nu"
+msgstr ""
+
+#: inc/woocommerce.php:478
+msgid "Artikelnummer"
+msgstr ""
+
+#: page-templates/brands.php:41
+msgid "Alla varumärken i katalogen, från A till Ö."
+msgstr ""
+
+#: page-templates/brands.php:50
+msgid "Filtrera varumärken"
+msgstr ""
+
+#: page-templates/brands.php:52
+msgid "Filtrera varumärken …"
+msgstr ""
+
+#: page-templates/brands.php:54
+msgid "Bokstäver"
+msgstr ""
+
+#. translators: %s: number of products.
+#: page-templates/brands.php:108 page-templates/stores.php:61 template-parts/listing-toolbar.php:30
+#, php-format
+msgid "%s produkt"
+msgid_plural "%s produkter"
+msgstr[0] ""
+msgstr[1] ""
+
+#: page-templates/brands.php:119
+msgid "Inga varumärken ännu."
+msgstr ""
+
+#: page-templates/rooms.php:19
+msgid "Hitta möbler och inredning rum för rum."
+msgstr ""
+
+#. translators: %s: room or style name.
+#: page-templates/rooms.php:33 page-templates/styles.php:33
+#, php-format
+msgid "Populära kategorier för %s"
+msgstr ""
+
+#: page-templates/stores.php:22
+msgid "Vi jämför inredning från Nordens bästa butiker. Här ser du frakt, returrätt och leveranstid innan du klickar vidare."
+msgstr ""
+
+#. translators: %s: store name.
+#: page-templates/stores.php:82
+#, php-format
+msgid "Alla produkter från %s"
+msgstr ""
+
+#: page-templates/styles.php:19
+msgid "Hitta din stil – från japandi till lantligt."
+msgstr ""
+
+#. translators: %s: search query.
+#: search.php:23
+#, php-format
+msgid "Artiklar om ”%s”"
+msgstr ""
+
+#: search.php:87
+msgid "Alla artiklar"
+msgstr ""
+
+#: single.php:71 single.php:72
+msgid "Produkter i artikeln"
+msgstr ""
+
+#: single.php:91
+msgid "Läs mer"
+msgstr ""
+
+#: single.php:91
+msgid "All inspiration"
+msgstr ""
+
+#: template-parts/filters.php:25
+msgid "Stäng filter"
+msgstr ""
+
+#: template-parts/filters.php:108
+msgid "Från"
+msgstr ""
+
+#: template-parts/filters.php:113
+msgid "Till"
+msgstr ""
+
+#: template-parts/filters.php:126
+msgid "Endast rea"
+msgstr ""
+
+#: template-parts/filters.php:132
+msgid "Visa produkter"
+msgstr ""
+
+#: template-parts/filters.php:133
+msgid "Rensa"
+msgstr ""
+
+#: template-parts/listing-toolbar.php:35
+msgid "Sortera"
+msgstr ""
+
+#: template-parts/listing-toolbar.php:42
+msgid "Visning"
+msgstr ""
+
+#: template-parts/listing-toolbar.php:43
+msgid "Rutnät"
+msgstr ""
+
+#: template-parts/listing-toolbar.php:44
+msgid "Lista"
+msgstr ""
+
+#: template-parts/listing-toolbar.php:49
+msgid "Valda filter"
+msgstr ""
+
+#: template-parts/listing-toolbar.php:61
+msgid "(ta bort filter)"
+msgstr ""
+
+#: template-parts/listing-toolbar.php:84
+msgid "Rensa alla"
+msgstr ""
+
+#: template-parts/listing.php:48
+msgid "Inga produkter matchar"
+msgstr ""
+
+#: template-parts/listing.php:70
+msgid "Prova att ta bort ett filter eller sök på något annat."
+msgstr ""
+
+#: template-parts/listing.php:72
+msgid "Rensa filter"
+msgstr ""
+
+#. translators: %d: image number.
+#: template-parts/product.php:78
+#, php-format
+msgid "Visa bild %d"
+msgstr ""
+
+#. translators: %s: designer name.
+#: template-parts/product.php:98
+#, php-format
+msgid "Design: %s"
+msgstr ""
+
+#. translators: %d: discount percentage.
+#: template-parts/product.php:109
+#, php-format
+msgid "Spara %d %%"
+msgstr ""
+
+#: template-parts/product.php:119
+msgid "Färger:"
+msgstr ""
+
+#. translators: %s: store name with link.
+#: template-parts/product.php:141
+#, php-format
+msgid "Säljs av %s"
+msgstr ""
+
+#: template-parts/product.php:148
+msgid "Leveranstid:"
+msgstr ""
+
+#. translators: %s: date.
+#: template-parts/product.php:163
+#, php-format
+msgid "Pris senast uppdaterat %s. Priset kan ha ändrats hos butiken."
+msgstr ""
+
+#: template-parts/product.php:178
+msgid "Produktinformation"
+msgstr ""
+
+#: template-parts/product.php:179
+msgid "Beskrivning"
+msgstr ""
+
+#: template-parts/product.php:180
+msgid "Specifikationer"
+msgstr ""
+
+#: template-parts/product.php:185
+msgid "Ingen beskrivning ännu."
+msgstr ""
+
+#: template-parts/product.php:215
+msgid "Passar ihop med"
+msgstr ""
+
+#: template-parts/product.php:220
+msgid "Liknande till lägre pris"
+msgstr ""
+
+#: template-parts/product.php:250
+msgid "Inspiration där produkten förekommer"
+msgstr ""

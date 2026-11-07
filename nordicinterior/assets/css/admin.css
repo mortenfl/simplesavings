@@ -1,0 +1,221 @@
+/* Nordic Interior – admin and Customizer styles. */
+.ni-admin .ni-admin-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+	gap: 16px;
+	margin-top: 16px;
+}
+
+.ni-admin-card {
+	padding: 16px 20px;
+	border: 1px solid #dcdcde;
+	border-radius: 4px;
+	background: #fff;
+}
+
+.ni-admin-card--wide {
+	grid-column: 1 / -1;
+}
+
+.ni-admin-card h2 {
+	margin-top: 0;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: .08em;
+}
+
+.ni-kpis {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+	gap: 16px;
+	margin: 16px 0;
+}
+
+.ni-kpi {
+	display: flex;
+	flex-direction: column;
+	padding: 16px 20px;
+	border: 1px solid #dcdcde;
+	border-radius: 4px;
+	background: #f7f3ec;
+}
+
+.ni-kpi__num {
+	color: #171716;
+	font-size: 28px;
+	font-weight: 500;
+	font-variant-numeric: tabular-nums;
+	line-height: 1.3;
+}
+
+.ni-bars th {
+	width: 40%;
+	padding: 4px 8px 4px 0;
+	font-weight: 400;
+	text-align: left;
+	overflow-wrap: anywhere;
+}
+
+.ni-bars td {
+	padding: 4px 0;
+}
+
+.ni-bars__bar {
+	display: block;
+	min-width: 2px;
+	height: 8px;
+	border-radius: 2px;
+	background: #5e6e58;
+}
+
+.ni-bars__num {
+	width: 60px;
+	text-align: right;
+	font-variant-numeric: tabular-nums;
+}
+
+.ni-spark {
+	display: flex;
+	align-items: flex-end;
+	gap: 2px;
+	height: 80px;
+}
+
+.ni-spark span {
+	flex: 1;
+	min-height: 2px;
+	background: #8a9a84;
+}
+
+.ni-pill {
+	display: inline-block;
+	padding: 2px 8px;
+	border-radius: 999px;
+	background: #f0f0f1;
+	font-size: 12px;
+}
+
+.ni-pill--ok {
+	background: #e3ece0;
+	color: #2f4a2a;
+}
+
+.ni-pill--broken {
+	background: #f6dcd5;
+	color: #7b2c18;
+}
+
+.ni-pill--main {
+	background: #171716;
+	color: #fff;
+}
+
+.ni-change--down {
+	color: #2f6b2a;
+}
+
+.ni-change--up {
+	color: #8a2f1c;
+}
+
+.ni-checklist {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.ni-checklist li {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	padding: 4px 0;
+}
+
+.ni-checklist .dashicons-yes-alt {
+	color: #3e7a37;
+}
+
+.ni-checklist .dashicons-marker {
+	color: #a7aaad;
+}
+
+.ni-media__preview img {
+	max-width: 120px;
+	height: auto;
+	margin: 6px 0;
+	border-radius: 2px;
+}
+
+.ni-months label {
+	display: inline-block;
+	min-width: 64px;
+}
+
+.ni-landings td {
+	vertical-align: top;
+}
+
+/* Customizer: sortable sections. */
+.ni-sortable {
+	margin: 8px 0 0;
+}
+
+.ni-sortable__item {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	margin: 0 0 4px;
+	padding: 6px 8px;
+	border: 1px solid #dcdcde;
+	border-radius: 3px;
+	background: #fff;
+	cursor: grab;
+}
+
+.ni-sortable__item.is-dragging {
+	opacity: .5;
+}
+
+.ni-sortable__item label {
+	flex: 1;
+}
+
+.ni-sortable__buttons button {
+	min-width: 24px;
+	text-decoration: none;
+}
+
+.ni-tools input[type="file"] {
+	max-width: 100%;
+}
+
+/* Block editor: Shoppa looken. */
+.ni-look-editor__stage {
+	position: relative;
+}
+
+.ni-look-editor__dot {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 26px;
+	height: 26px;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	background: #171716;
+	color: #fff;
+	font-size: 12px;
+	transform: translate(-50%, -50%);
+	pointer-events: none;
+}
+
+.ni-look-editor__dot.is-empty {
+	background: #a8553f;
+}
+
+.ni-look-editor__point {
+	margin-bottom: 12px;
+	padding-bottom: 12px;
+	border-bottom: 1px solid #e0e0e0;
+}

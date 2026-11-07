@@ -1,0 +1,24 @@
+/*
+Theme Name: Nordic Interior
+Theme URI: https://www.nordicinterior.se/
+Author: Nordic Interior
+Author URI: https://www.nordicinterior.se/
+Description: Lugnt, nordiskt katalogtema för inredning och möbler. Bygger på WooCommerce externa produkter (affiliate) med rum, stilar, butiker, smart sök, AJAX-filter, Shoppa looken, kampanjer, klickspårning per placering och en startsida som byggs av sektioner.
+Version: 1.0.0
+Requires at least: 6.6
+Tested up to: 6.8
+Requires PHP: 8.1
+WC requires at least: 9.6
+WC tested up to: 9.9
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: nordicinterior
+Domain Path: /languages
+Tags: e-commerce, custom-menu, custom-logo, featured-images, threaded-comments, translation-ready, right-sidebar, footer-widgets, accessibility-ready, theme-options
+*/
+
+/*
+ * All presentational CSS lives in assets/css/main.css so it can be
+ * versioned, minified by caching plugins and loaded with correct priority.
+ * This file only carries the theme header required by WordPress.
+ */

@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<ruleset name="Nordic Interior">
+	<description>WordPress Coding Standards for the Nordic Interior theme.</description>
+	<file>.</file>
+	<exclude-pattern>*/vendor/*</exclude-pattern>
+	<exclude-pattern>*/node_modules/*</exclude-pattern>
+	<exclude-pattern>*/assets/*</exclude-pattern>
+	<exclude-pattern>*/bin/*</exclude-pattern>
+	<arg name="extensions" value="php"/>
+	<arg value="sp"/>
+	<arg name="colors"/>
+
+	<config name="testVersion" value="8.1-"/>
+	<config name="minimum_wp_version" value="6.6"/>
+
+	<rule ref="WordPress"/>
+	<rule ref="PHPCompatibilityWP"/>
+
+	<rule ref="WordPress.WP.I18n">
+		<properties>
+			<property name="text_domain" type="array">
+				<element value="nordicinterior"/>
+			</property>
+		</properties>
+	</rule>
+	<!--
+		The brief requires the prefix "ni_". WPCS rejects prefixes shorter than
+		three characters (PrefixAllGlobals.ShortPrefixPassed) and would then
+		flag every global. The sniff is therefore disabled here; bin/check-prefix.php
+		verifies that every global function, class, constant and hook uses ni_/NI_.
+	-->
+	<rule ref="WordPress">
+		<exclude name="WordPress.NamingConventions.PrefixAllGlobals"/>
+	</rule>
+	<!-- Template files use the theme's prefixed globals in the global scope. -->
+	<!-- WooCommerce capabilities. -->
+	<rule ref="WordPress.WP.Capabilities">
+		<properties>
+			<property name="custom_capabilities" type="array">
+				<element value="edit_products"/>
+				<element value="edit_product"/>
+				<element value="manage_product_terms"/>
+			</property>
+		</properties>
+	</rule>
+	<rule ref="WordPress.Files.FileName">
+		<properties>
+			<property name="is_theme" value="true"/>
+		</properties>
+	</rule>
+</ruleset>
